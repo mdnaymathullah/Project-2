@@ -1,0 +1,144 @@
+
+p{ line-height: 2em; }
+h1, h2, h3, h4{
+    color: #000000;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0em 0em 0em 0em;
+}
+h1{ font-size: 1.9em; }
+h2{ font-size: 1.6em; }
+a{
+	color: #000000;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: none; }
+
+
+body{
+    font-family: times; font-size: 100%; line-height: 1.6em; width: %; margin: ; background: #eee;
+}
+
+#page{20px; }
+
+
+#logo{
+	width: 50%;
+	margin-top: 20px;
+	font-family: Times;
+	display: inline-block;
+}
+
+body {
+    background: url(images/BG-2.jpg);
+}
+ 
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 0px 0px rgba(0,0,0,0);
+    background:#000;
+}
+ 
+.menu {
+    width:1200px;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:10px;
+    list-style:none;
+    font-family:'Roman';
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:lightgreen;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#eee;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:black;
+}
+ 
+
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:3px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.1s;
+    box-shadow:0px 2px 5px rgba(0,0,0,0);
+    background:black;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:14px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#000000;
+}
+#content{
+	margin: 2px 0;
+	background: none;
+	padding: 20px;
+	clear: both;
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: #000000;
+	}
+
+
+#content,
+ul li a{ box-shadow: 0px 0px 0px #eee; }
